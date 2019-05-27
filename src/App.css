@@ -1,0 +1,33 @@
+body {
+	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.4em;
+	color: #4d4d4d;
+	min-width: 230px;
+	max-width: 550px;
+	margin: 0 auto;
+}
+
+.task-list {
+	margin: 130px 0 40px 0;
+	position: relative;
+}
+
+.task-list .header {
+	position: absolute;
+	top: -50px;
+	height: 30px;
+	width: 100%;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	justify-content: space-between;
+	display: flex;
+	border-bottom: solid 1px;
+}
+
+.task-list .header .return-link {
+	font-size: 15px;
+	color: blue;
+	font-weight: lighter;
+}
+

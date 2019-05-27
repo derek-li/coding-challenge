@@ -1,0 +1,22 @@
+.group-overview {
+	margin-top: 20px;
+	height: 50px;
+	border-bottom: solid 1px;
+	display: flex;
+}
+
+.group-overview .icon {
+	margin-top: 10px;
+}
+
+.group-overview .title {
+	margin-left: 20px;
+	font-weight: bold;
+}
+
+.group-overview .tasks-completed {
+	margin-left: 20px;
+	font-size: 10px;
+	color: gray;
+	font-weight: lighter;
+}

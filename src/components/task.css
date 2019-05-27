@@ -1,0 +1,24 @@
+.task {
+	height: 30px;
+	display: flex;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.task .icon {
+	height: 25px;
+	width: 25px;
+}
+
+.task .title {
+	margin-left: 15px;
+}
+
+.task .title .locked {
+	color: gray;
+	font-weight: lighter;
+}
+
+.task .title .completed {
+	text-decoration: line-through;
+}
